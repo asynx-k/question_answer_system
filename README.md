@@ -1,9 +1,9 @@
-# Knowledge Graph-based Question and Answer System
+# ❓ Knowledge Graph-based Question and Answer System
 
 This project is an implementastion of a Knowledge Graph-based Question and Answer System.
 The knowledge graph used in this project is [DBpedia](https://www.dbpedia.org). 
 
----
+## 🖳 Architecture
 The system is composed of 3 parts:
 1. Translating the question in natural language into a SPARQL query
 2. Extracting information from the DBpedia
@@ -26,20 +26,30 @@ The system's chatbot works as a Finite State Machine, extracting information fro
 
 Developed system still fails to answer certain question, mostly due to extracted predicates being unapplicable to extracted entities (no relevant information found in DBpedia).
 
----
+## 🔼 Possible Improvements
 _Possible ways of improving the system is:_
 - Adding support for more question types
 - Finding more data to train the models on
 - Adding more nuanced question analysis (support for constrained types of answer)
 
+## ✨ Examples
+
+> Q: what kind of music does stock aitken waterman play  
+> A: Stock Aitken Waterman primarily produce Dance-pop, Eurobeat, Hi-NRG, and Pop music.
+
+> Q: which city was tommy neilson born in  
+> A: Tommy Neilson was born in Gorebridge.
+
+> Q: which fictional character was created by dan aykroyd  
+> A: Failed to find an answer. Please, paraphrase your question.
 ___
 
-# Система вопросов и ответов на основе графа знаний
+# ❓ Система вопросов и ответов на основе графа знаний
 
 Этот проект представляет собой реализацию системы вопросов и ответов на основе графа знаний.  
 В качестве графа знаний в проекте используется [DBpedia](https://www.dbpedia.org).  
 
----  
+## 🖳 Архитектура
 Система состоит из 3 частей:  
 1. Перевод вопроса на естественном языке в SPARQL-запрос  
 2. Извлечение информации из DBpedia  
@@ -63,10 +73,20 @@ ___
 
 Разработанная система всё ещё ошибается при ответе на некоторые вопросы, в основном из-за того, что извлечённые предикаты неприменимы к найденным сущностям (в DBpedia отсутствует соответствующая информация).  
 
----  
+## 🔼 Возможные улучшения
 _Возможные пути улучшения системы:_  
 - Добавление поддержки большего количества типов вопросов  
 - Поиск дополнительных данных для обучения моделей  
 - Более детальный анализ вопросов (поддержка ограниченных типов ответов)
 
+## ✨ Примеры работы
+
+> Q: what kind of music does stock aitken waterman play  
+> A: Stock Aitken Waterman primarily produce Dance-pop, Eurobeat, Hi-NRG, and Pop music.
+
+> Q: which city was tommy neilson born in  
+> A: Tommy Neilson was born in Gorebridge.
+
+> Q: which fictional character was created by dan aykroyd  
+> A: Failed to find an answer. Please, paraphrase your question.
 
